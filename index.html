@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="./src/logo.png" alt="logo delivery food website"></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Special Offers</a></li>
+                <li><a href="#" class="nav-btn-orange">Restaurants</a></li>
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#" class="nav-btn-dark">Login/Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-subtitle">I'm lovin' it!</p>
+                    <h1 class="hero-title">McDonald's East London</h1>
+
+                    <div class="hero-stats">
+                        <div class="stat-pill">
+                            <img src="/src/menu.png" alt="menu icon" style="width: 34px; height: 34px;">
+                            <span>Minimum Order: 12 GBP</span>
+                        </div>
+                        <div class="stat-pill">
+                            <img src="/src/delivery.png" alt="delivery icon" style="width: 34px; height: 34px;">
+                            <span>Delivery in 20-25 Minutes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image-container">
+                    <div class="featured-card">
+                        <img src="./src/hamburger.png" alt="McDonald's Burger" class="product-img">
+                        <img src="/src/reviews.png" alt="reviews icon" class="review-badge">
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-footer-status">
+                <img src="./src/oclock.png" alt="oclock icon" style="width: 29px; height: 29px;">
+                <span>Open until 3:00 AM</span>
+            </div>
+        </div>
+
+        <!-- search section -->
+        <div class="search-section">
+            <span>
+                All Offers from McDonald's East London
+            </span>
+            <div class="search-container">
+                <img src="/src/mglass.png" alt="search icon">
+                <input type="text" placeholder="Search from menu...">
+            </div>
+        </div>
+
+        <!-- categories section -->
+        <nav class="categories-section" aria-label="Menú de categorías">
+            <ul class="categories-list">
+                <li class="active">Offers</li>
+                <li>Burgers</li>
+                <li>Fries</li>
+                <li>Snacks</li>
+                <li>Salads</li>
+                <li>Cold drinks</li>
+                <li>Happy Meal®</li>
+                <li>Desserts</li>
+                <li>Hot drinks</li>
+                <li>Sauces</li>
+                <li>Orbit®</li>
+            </ul>
+        </nav>
+
+        <!-- offer card -->
+        <section class="offers-container">
+            <article class="offer-card" style="background-image: url('./src/offer1.png');">
+                <span class="discount-badge">-20%</span>
+                <div class="card-content">
+                    <p class="restaurant-name">McDonald's East London</p>
+                    <h3 class="offer-title">First Order Discount</h3>
+                </div>
+            </article>
+
+            <article class="offer-card" style="background-image: url('./src/offer2.png');">
+                <span class="discount-badge">-20%</span>
+                <div class="card-content">
+                    <p class="restaurant-name">McDonald's East London</p>
+                    <h3 class="offer-title">Vegan Discount</h3>
+                </div>
+            </article>
+
+            <article class="offer-card" style="background-image: url('./src/offer3.png');">
+                <span class="discount-badge">-100%</span>
+                <div class="card-content">
+                    <p class="restaurant-name">McDonald's East London</p>
+                    <h3 class="offer-title">Free ice Cream Offer</h3>
+                </div>
+            </article>
+        </section>
+
+        <!-- burger menu card -->
+        <div class="burger-menu-header">
+            <h1>Burgers</h1>
+        </div>
+
+        <section class="burger-menu-container">
+            <article class="burger-menu-card">
+                <div class="card-info">
+                    <h3 class="product-title">Royal Cheese Burger with extra Fries</h3>
+                    <p class="product-description">1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium</p>
+                    <span class="product-price">GBP 23.10</span>
+                </div>
+                <div class="card-image-wrapper">
+                    <img src="./src/burger-menu.png" alt="Royal Cheese Burger" class="product-image">
+                    <img src="./src/add-button.png" alt="add button" class="add-button">
+                </div>
+            </article>
+            <article class="burger-menu-card">
+                <div class="card-info">
+                    <h3 class="product-title">The classics for 3</h3>
+                    <p class="product-description">1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French
+                        Fries, 3 cold drinks</p>
+                    <span class="product-price">GBP 23.10</span>
+                </div>
+                <div class="card-image-wrapper">
+                    <img src="./src/burger-menu.png" alt="Royal Cheese Burger" class="product-image">
+                    <img src="./src/add-button.png" alt="add button" class="add-button">
+                </div>
+            </article>
+            <article class="burger-menu-card">
+                <div class="card-info">
+                    <h3 class="product-title">The classics for 3</h3>
+                    <p class="product-description">1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French
+                        Fries, 3 cold drinks</p>
+                    <span class="product-price">GBP 23.10</span>
+                </div>
+                <div class="card-image-wrapper">
+                    <img src="./src/burger-menu.png" alt="Royal Cheese Burger" class="product-image">
+                    <img src="./src/add-button.png" alt="add button" class="add-button">
+                </div>
+            </article>
+            <article class="burger-menu-card">
+                <div class="card-info">
+                    <h3 class="product-title">The classics for 3</h3>
+                    <p class="product-description">1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French
+                        Fries, 3 cold drinks</p>
+                    <span class="product-price">GBP 23.10</span>
+                </div>
+                <div class="card-image-wrapper">
+                    <img src="./src/burger-menu.png" alt="Royal Cheese Burger" class="product-image">
+                    <img src="./src/add-button.png" alt="add button" class="add-button">
+                </div>
+            </article>
+            <article class="burger-menu-card">
+                <div class="card-info">
+                    <h3 class="product-title">The classics for 3</h3>
+                    <p class="product-description">1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French
+                        Fries, 3 cold drinks</p>
+                    <span class="product-price">GBP 23.10</span>
+                </div>
+                <div class="card-image-wrapper">
+                    <img src="./src/burger-menu.png" alt="Royal Cheese Burger" class="product-image">
+                    <img src="./src/add-button.png" alt="add button" class="add-button">
+                </div>
+            </article>
+            <article class="burger-menu-card">
+                <div class="card-info">
+                    <h3 class="product-title">The classics for 3</h3>
+                    <p class="product-description">1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French
+                        Fries, 3 cold drinks</p>
+                    <span class="product-price">GBP 23.10</span>
+                </div>
+                <div class="card-image-wrapper">
+                    <img src="./src/burger-menu.png" alt="Royal Cheese Burger" class="product-image">
+                    <img src="./src/add-button.png" alt="add button" class="add-button">
+                </div>
+            </article>
+        </section>
+
+        <!-- info section -->
+        <section class="info-section">
+            <div class="column">
+                <div class="header-group">
+                    <img src="./src/map-ping.png" alt="" class="icon">
+                    <h2>Delivery information</h2>
+                </div>
+                <ul class="info-list">
+                    <li><strong>Monday:</strong> 12:00 AM–3:00 AM, 8:00 AM–3:00 AM</li>
+                    <li><strong>Tuesday:</strong> 8:00 AM–3:00 AM</li>
+                    <li><strong>Wednesday:</strong> 8:00 AM–3:00 AM</li>
+                    <li><strong>Thursday:</strong> 8:00 AM–3:00 AM</li>
+                    <li><strong>Friday:</strong> 8:00 AM–3:00 AM</li>
+                    <li><strong>Saturday:</strong> 8:00 AM–3:00 AM</li>
+                    <li><strong>Sunday:</strong> 8:00 AM–12:00 AM</li>
+                    <li><strong>Estimated time until delivery:</strong> 20 min</li>
+                </ul>
+            </div>
+
+            <div class="column">
+                <div class="header-group">
+                    <img src="./src/contact.png" alt="" class="icon">
+                    <h2>Contact information</h2>
+                </div>
+                <p class="contact-text">
+                    If you have allergies or other dietary restrictions, please contact the restaurant. The restaurant
+                    will provide food-specific information upon request.
+                </p>
+                <div class="contact-detail">
+                    <span class="label">Phone number</span>
+                    <span class="value">+934443-43</span>
+                </div>
+                <div class="contact-detail">
+                    <span class="label">Website</span>
+                    <a href="http://mcdonalds.uk/" class="link">http://mcdonalds.uk/</a>
+                </div>
+            </div>
+
+            <div class="column dark">
+                <div class="header-group">
+                    <img src="/src/aoclock.png" alt="" class="icon">
+                    <h2>Operational Times</h2>
+                </div>
+                <ul class="info-list">
+                    <li><strong>Monday:</strong> 8:00 AM–3:00 AM</li>
+                    <li><strong>Tuesday:</strong> 8:00 AM–3:00 AM</li>
+                    <li><strong>Wednesday:</strong> 8:00 AM–3:00 AM</li>
+                    <li><strong>Thursday:</strong> 8:00 AM–3:00 AM</li>
+                    <li><strong>Friday:</strong> 8:00 AM–3:00 AM</li>
+                    <li><strong>Saturday:</strong> 8:00 AM–3:00 AM</li>
+                    <li><strong>Sunday:</strong> 8:00 AM–3:00 AM</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- google map section -->
+        <section class="map-section">
+            <div class="info-card">
+                <h2>McDonald’s</h2>
+                <span>South London</span>
+                <p class="address">
+                    Tooley St, London Bridge, London SE1 2TF,<br>
+                    United Kingdom
+                </p>
+                <div class="contact-section">
+                    <span class="label">Phone number</span>
+                    <a href="tel:+93444343" class="value">+934443-43</a>
+                </div>
+                <div class="contact-section">
+                    <span class="label">Website</span>
+                    <a href="http://mcdonalds.uk/" class="value">http://mcdonalds.uk/</a>
+                </div>
+            </div>
+
+            <div class="map-pin">
+                <div class="pin-info">
+                    <strong>McDonald's</strong>
+                    <span>South London</span>
+                </div>
+                <div class="pin-icon">
+                    <img src="./src/google-map-ping.png" alt="pin">
+                </div>
+            </div>
+        </section>
+
+        <!-- customer review section -->
+        <section class="customer-review-section">
+            <h2>Customer Reviews</h2>
+            <div class="review-container">
+                <article class="review-card">
+                    <header class="review-header">
+                        <div class="user-profile">
+                            <img src="./src/profile-review.png" alt="St Glx" class="avatar">
+                            <div class="user-info">
+                                <h2 class="user-name">St Glx</h2>
+                                <p class="user-location">South London</p>
+                            </div>
+                        </div>
+                        <div class="review-meta">
+                            <div class="stars">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                            </div>
+                            <div class="date-container">
+                                <img src="./src/oclock-review.png" alt="Clock" class="icon-clock">
+                                <span class="date-text">24th September, 2023</span>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="review-content">
+                        <p>
+                            The positive aspect was undoubtedly the efficiency of the service.
+                            The queue moved quickly, the staff was friendly, and the food was
+                            up to the usual McDonald's standard – hot and satisfying.
+                        </p>
+                    </div>
+                </article>
+                <article class="review-card">
+                    <header class="review-header">
+                        <div class="user-profile">
+                            <img src="./src/profile-review.png" alt="St Glx" class="avatar">
+                            <div class="user-info">
+                                <h2 class="user-name">St Glx</h2>
+                                <p class="user-location">South London</p>
+                            </div>
+                        </div>
+                        <div class="review-meta">
+                            <div class="stars">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                            </div>
+                            <div class="date-container">
+                                <img src="./src/oclock-review.png" alt="Clock" class="icon-clock">
+                                <span class="date-text">24th September, 2023</span>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="review-content">
+                        <p>
+                            The positive aspect was undoubtedly the efficiency of the service.
+                            The queue moved quickly, the staff was friendly, and the food was
+                            up to the usual McDonald's standard – hot and satisfying.
+                        </p>
+                    </div>
+                </article>
+                <article class="review-card">
+                    <header class="review-header">
+                        <div class="user-profile">
+                            <img src="./src/profile-review.png" alt="St Glx" class="avatar">
+                            <div class="user-info">
+                                <h2 class="user-name">St Glx</h2>
+                                <p class="user-location">South London</p>
+                            </div>
+                        </div>
+                        <div class="review-meta">
+                            <div class="stars">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                                <img src="./src/star-review.png" alt="Star" class="icon-star">
+                            </div>
+                            <div class="date-container">
+                                <img src="./src/oclock-review.png" alt="Clock" class="icon-clock">
+                                <span class="date-text">24th September, 2023</span>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="review-content">
+                        <p>
+                            The positive aspect was undoubtedly the efficiency of the service.
+                            The queue moved quickly, the staff was friendly, and the food was
+                            up to the usual McDonald's standard – hot and satisfying.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <img src="./src/reviews.png" alt="reviews" class="reviews-badge-bottom"
+                style="width: 153px; height: 178px;">
+        </section>
+        <!-- similar restaurants -->
+        <section class="similar-restaurants-section">
+            <div class="similar-restaurants-content">
+                <h2>Similar Restaurants</h2>
+                <div class="restaurants-container">
+                    <article class="restaurant-card">
+                        <div class="brand-logo-container">
+                            <img src="./src/mcdonals.png" alt="Logo McDonald's">
+                        </div>
+                        <h3 class="restaurant-name">McDonald's London</h3>
+                    </article>
+                    <article class="restaurant-card">
+                        <div class="brand-logo-container">
+                            <img src="./src/papajhons.png" alt="Logo Papa John's">
+                        </div>
+                        <h3 class="restaurant-name">Papa Johns</h3>
+                    </article>
+                    <article class="restaurant-card">
+                        <div class="brand-logo-container">
+                            <img src="./src/kfc.png" alt="Logo KFC">
+                        </div>
+                        <h3 class="restaurant-name">KFC West London</h3>
+                    </article>
+                    <article class="restaurant-card">
+                        <div class="brand-logo-container">
+                            <img src="./src/texas.png" alt="Logo Texas">
+                        </div>
+                        <h3 class="restaurant-name">Texas Chicken</h3>
+                    </article>
+                    <article class="restaurant-card">
+                        <div class="brand-logo-container">
+                            <img src="./src/burgerking.png" alt="Logo Burger King">
+                        </div>
+                        <h3 class="restaurant-name">Burger King</h3>
+                    </article>
+                    <article class="restaurant-card">
+                        <div class="brand-logo-container">
+                            <img src="./src/shaurma.png" alt="Logo Shaurma">
+                        </div>
+                        <h3 class="restaurant-name">Shaurma 1</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-container">
+                <div class="footer-grid">
+                    
+                    <div class="footer-col brand-col">
+                        <img src="./src/footerlogo.png" alt="Order UK Logo" class="footer-logo">
+                        <div class="app-links">
+                            <img src="./src/appstore.png" alt="App Store">
+                            <img src="./src/googleplay.png" alt="Google Play">
+                        </div>
+                        <p class="company-info">Company # 490039-445, Registered with<br>House of companies.</p>
+                    </div>
+
+                    <div class="footer-col subscribe-col">
+                        <h4 class="col-title">Get Exclusive Deals in your Inbox</h4>
+                        <form class="subscribe-form">
+                            <input type="email" placeholder="youremail@gmail.com" required>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                        <p class="spam-notice">we wont spam, read our <a href="#">email policy</a></p>
+                        <div class="social-links">
+                            <img src="./src/facebook.png" alt="Facebook" class="social-icons-img">
+                            <img src="./src/instagram.png" alt="Instagram" class="social-icons-img">
+                            <img src="./src/tiktok.png" alt="TikTok" class="social-icons-img">
+                            <img src="./src/snapchat.png" alt="Snapchat" class="social-icons-img">
+                        </div>
+                    </div>
+
+                    <div class="footer-col links-col">
+                        <h4 class="col-title">Legal Pages</h4>
+                        <ul>
+                            <li><a href="#">Terms and conditions</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Cookies</a></li>
+                            <li><a href="#">Modern Slavery Statement</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col links-col">
+                        <h4 class="col-title">Important Links</h4>
+                        <ul>
+                            <li><a href="#">Get help</a></li>
+                            <li><a href="#">Add your restaurant</a></li>
+                            <li><a href="#">Sign up to deliver</a></li>
+                            <li><a href="#">Create a business account</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-container bottom-container">
+                <div class="footer-left">
+                    <p>Order.uk Copyright 2024, All Rights Reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Do not sell or share my personal information</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
