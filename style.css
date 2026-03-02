@@ -62,7 +62,7 @@ nav a:hover {
 }
 
 .hero {
-    background: linear-gradient(rgba(3, 8, 31, 0.85), rgba(3, 8, 31, 0.85)), url('/src/hamburger.png');
+    background: linear-gradient(rgba(3, 8, 31, 0.85), rgba(3, 8, 31, 0.85)), url('./src/hamburger.png');
     background-size: cover;
     background-position: center;
     width: 1528px;
